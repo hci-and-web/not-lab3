@@ -5,7 +5,9 @@
 /*
 font-family: 'Barlow', sans-serif;
 font-family: 'Saira', sans-serif;
-
+font-family: 'Lacquer', sans-serif;
+font-family: 'Patua One', sans-serif;
+font-family: 'Staatliches', sans-serif;
 */
 
 html {
@@ -33,7 +35,7 @@ header {
 
 #company_title {
   font-size: 4.236em; /* 67.773px */
-  font-family: 'Saira', sans-serif;
+  font-family: 'Graduate', sans-serif;
   margin-bottom: 0.236em; /* 3.777px */
 }
 
@@ -90,7 +92,8 @@ input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
   border-radius: 0.382em; /* 6.112px */
   background-color: #c4c4c4;
   color:#000000;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Patua One', sans-serif;
+  letter-spacing: 0.09em; /* 1.443px */
   -webkit-appearance: none;
 }
 
@@ -104,7 +107,9 @@ label {
   margin:auto;
   width: 95%;
   margin-top: 1em; /* 16px */
+  font-family: 'Patua One', sans-serif;
   font-size: 1em; /* 16px */
+  letter-spacing: 0.09em; /* 1.443px */
 }
 
 
