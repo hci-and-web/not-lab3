@@ -1,0 +1,168 @@
+/*************/
+/** GENERAL **/
+/*************/
+
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Saira', sans-serif;
+*/
+
+body {
+  background-color: #0b1334;
+  color:#ffffff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.35em;
+  padding-bottom: 3em;
+}
+
+header {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  padding: 1.15em 1.5em;
+  background-color: #e25f18;
+  color: #ffffff;
+}
+
+#company_title {
+  font-size: 3em;
+  font-family: 'Saira', sans-serif;
+  margin-bottom: .25em;
+}
+
+#tagline {
+  font-size: 2em;
+  color:#f7e9e2;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1em;
+}
+
+footer p {
+  text-align: center;
+}
+
+/**********/
+/** FORM **/
+/**********/
+
+#form_section {
+  width:100%;
+  margin:auto;
+  font-size: 1.3em;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 95%;
+  margin-top: 1em;
+  padding: .6em;
+  background-color: #323750;
+  color: rgb(255, 255, 255);
+  font-size: 1.15em;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  -webkit-appearance: none;
+}
+
+input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
+  outline: none;
+  border: 0.5px solid #515670;
+  border-left: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 4px rgb(255, 255, 255);
+}
+
+#submit_button {
+  width:75%;
+  margin-top: 1.25em;
+  border-radius: 5px;
+  background-color: #e25f18;
+  font-family: 'Barlow', sans-serif;
+  -webkit-appearance: none;
+}
+
+#submit_button:hover {
+  background-color: #f2722d;
+}
+
+label {
+  display: block;
+  box-sizing: border-box;
+  margin:auto;
+  width: 95%;
+  margin-top: 1.25em;
+  font-size: 1.2em;
+}
+
+
+::selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-o-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-ms-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-webkit-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: .9em;
+  }
+
+  #form_section {
+    width:75%;
+  }
+
+  input {
+    width:100%;
+  }
+
+  label {
+    width:100%;
+  }
+
+  #submit_button {
+    width:50%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+    font-size: .75em;
+  }
+
+  input {
+    width:18em;
+  }
+
+  label {
+    width: 10em;
+    float:left;
+  }
+
+  #submit_button {
+    width:8em;
+  }
+}
