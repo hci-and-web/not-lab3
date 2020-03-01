@@ -9,15 +9,16 @@ font-family: 'Saira', sans-serif;
 */
 
 html {
-  
+  line-height: 1.2em;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
 }
 
 body {
   background-color: #202020;
   color:#dfdfdf;
-  font-family: 'Barlow', sans-serif;
-  font-size: 1.35em;
-  padding-bottom: 3em;
+  font-size: 1em; /* 16px */
+  padding-bottom: 2.618em; /* 41.887px */
 }
 
 header {
@@ -25,26 +26,26 @@ header {
   box-sizing: border-box;
   width: 100%;
   margin: auto;
-  padding: 1.15em 1.5em;
+  padding: 1.618em; /* 25.888px */
   background-color: #1b1b1b;
   color: #f0f0f0;
 }
 
 #company_title {
-  font-size: 3em;
+  font-size: 4.236em; /* 67.773px */
   font-family: 'Saira', sans-serif;
-  margin-bottom: .25em;
+  margin-bottom: 0.236em; /* 3.777px */
 }
 
 #tagline {
-  font-size: 2em;
+  font-size: 2.618em; /* 41.887px */
   color:#f7e9e2;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.618em; /* 25.888px */
   text-align: center;
-  margin: 1em;
+  margin: 1em; /* 16px */
 }
 
 footer p {
@@ -58,7 +59,7 @@ footer p {
 #form_section {
   width:100%;
   margin:auto;
-  font-size: 1.3em;
+  font-size: 1.618em; /* 25.888px */
 }
 
 input {
@@ -66,27 +67,27 @@ input {
   box-sizing: border-box;
   margin: auto;
   width: 95%;
-  margin-top: 1em;
+  margin-top: 1em; /* 16px */
   padding: .6em;
   background-color: #313131;
   color: #dfdfdf;
-  font-size: 1.15em;
+  font-size: 1em; /* 16px */
   border: none;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 0.382em 0.382em 0; /* 6.112px 6.112px */
   -webkit-appearance: none;
 }
 
 input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
   outline: none;
-  border: 0.5px solid #515670;
-  border-left: 3px solid #dfdfdf;
-  box-shadow: 0 0 4px #dfdfdf;
+  border: 0.056em solid #515670; /* 0.892px */
+  border-left: 0.236em solid #dfdfdf; /* 3.777px */
+  box-shadow: 0 0 0.236em #dfdfdf; /* 3.777px */
 }
 
 #submit_button {
   width:75%;
-  margin-top: 1.25em;
-  border-radius: 5px;
+  margin-top: 1.618em; /* 25.888px */
+  border-radius: 0.382em; /* 6.112px */
   background-color: #c4c4c4;
   color:#000000;
   font-family: 'Barlow', sans-serif;
@@ -94,7 +95,7 @@ input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
 }
 
 #submit_button:hover {
-  background-color: #f2722d;
+  background-color: #ffffff;
 }
 
 label {
@@ -102,8 +103,8 @@ label {
   box-sizing: border-box;
   margin:auto;
   width: 95%;
-  margin-top: 1.25em;
-  font-size: 1.2em;
+  margin-top: 1em; /* 16px */
+  font-size: 1em; /* 16px */
 }
 
 
@@ -134,7 +135,7 @@ label {
 
 @media only screen and (min-width: 768px) {
   body {
-    font-size: .9em;
+    font-size: 0.618em; /* 9.889px */
   }
 
   #form_section {
@@ -156,19 +157,19 @@ label {
 
 @media only screen and (min-width: 1025px) {
   body {
-    font-size: .75em;
+    font-size: 0.618em; /* 9.889px */
   }
 
   input {
-    width:18em;
+    width: 17.942em; /* 287.072px */
   }
 
   label {
-    width: 10em;
+    width: 11.089em; /* 177.424px */
     float:left;
   }
 
   #submit_button {
-    width:8em;
+    width: 11.089em; /* 177.424px */
   }
 }
