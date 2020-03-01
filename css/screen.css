@@ -5,11 +5,12 @@
 /*
 font-family: 'Barlow', sans-serif;
 font-family: 'Saira', sans-serif;
+
 */
 
 body {
-  background-color: #0b1334;
-  color:#ffffff;
+  background-color: #202020;
+  color:#dfdfdf;
   font-family: 'Barlow', sans-serif;
   font-size: 1.35em;
   padding-bottom: 3em;
@@ -21,8 +22,8 @@ header {
   width: 100%;
   margin: auto;
   padding: 1.15em 1.5em;
-  background-color: #e25f18;
-  color: #ffffff;
+  background-color: #1b1b1b;
+  color: #f0f0f0;
 }
 
 #company_title {
@@ -63,8 +64,8 @@ input {
   width: 95%;
   margin-top: 1em;
   padding: .6em;
-  background-color: #323750;
-  color: rgb(255, 255, 255);
+  background-color: #313131;
+  color: #dfdfdf;
   font-size: 1.15em;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -74,15 +75,16 @@ input {
 input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
   outline: none;
   border: 0.5px solid #515670;
-  border-left: 3px solid rgb(255, 255, 255);
-  box-shadow: 0 0 4px rgb(255, 255, 255);
+  border-left: 3px solid #dfdfdf;
+  box-shadow: 0 0 4px #dfdfdf;
 }
 
 #submit_button {
   width:75%;
   margin-top: 1.25em;
   border-radius: 5px;
-  background-color: #e25f18;
+  background-color: #c4c4c4;
+  color:#000000;
   font-family: 'Barlow', sans-serif;
   -webkit-appearance: none;
 }
